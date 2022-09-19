@@ -1,0 +1,80 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F9FAF8;
+    
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 60px;
+    border: 2px solid #3883F6;
+    border-radius: 10px;
+}
+.infoHeader {
+    font-size: 30px;
+    color: #1F2937;
+}
+.infoText {
+    font-size: 18px;
+    color: #1F2937;
+}
+header {
+    background-color: #1F2937;
+}
+footer {
+    background-color: #1F2937;
+}
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.bigText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.promoDeets {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.promoImg {
+    background-color: darkgrey;
+
+}
+.testimoanial {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.testimoanial .credit {
+    font-style: normal;
+    font-size: 24px;
+}
+.peerpressure {
+    background-color: #3883F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.peerpressure .eyecatch {
+    font-size: 28px;
+}
+.promoButton button {
+    border: none;
+}
+button {
+    background-color: #3883F6;
+    color: #F9FAF8;
+    font-size: 24px;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
