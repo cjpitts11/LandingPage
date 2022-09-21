@@ -1,18 +1,52 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #F9FAF8;
-    
+    display: flex;
+    flex-direction: column;
 }
 ul {
     list-style-type: none;
+    margin-left: auto;
+    display: flex;
 }
+
 a {
     text-decoration: none;
 }
 img {
-    width: 60px;
+    width: 200px;
     border: 2px solid #3883F6;
     border-radius: 10px;
+}
+.topPart {
+    background-color: #1F2937;
+}
+.mainPromotion {
+    display: flex;
+    flex-direction: row;
+}
+.promoText {
+    display: flex;
+    flex-direction: column;
+}
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infoText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.infoSect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .infoHeader {
     font-size: 30px;
@@ -24,9 +58,15 @@ img {
 }
 header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
 }
 footer {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 h1 {
     font-size: 24px;
@@ -47,6 +87,7 @@ a {
 }
 .promoImg {
     background-color: darkgrey;
+    margin: 10px;
 
 }
 .testimoanial {
@@ -54,16 +95,24 @@ a {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    display: flex;
+    flex-direction: column;
 }
 .testimoanial .credit {
     font-style: normal;
     font-size: 24px;
+    align-self: flex-end;
 }
 .peerpressure {
     background-color: #3883F6;
     color: #F9FAF8;
     border-radius: 10px;
     font-size: 18px;
+    display: flex;
+}
+.peerpressuretext {
+    display: flex;
+    flex-direction: column;
 }
 .peerpressure .eyecatch {
     font-size: 28px;
